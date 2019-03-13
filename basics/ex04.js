@@ -9,6 +9,14 @@
 
 //  écrire votre code sous ce commentaire
 
+function isEven(a) {
+    if (a % 2 === 0) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
 /*
   Test 1
   Résultat attendu : 1
@@ -25,5 +33,5 @@ isEven(5);
 
 /* DO NOT TOUCH */
 module.exports = {
-  isEven: isEven
+    isEven: isEven
 }

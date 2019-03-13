@@ -12,6 +12,22 @@
 
 //  écrire votre code sous ce commentaire
 
+
+
+function getHumanTypeByAge(a) {
+    let humanType;
+    if (a < 12 && a > 1) {
+        humanType = 'enfant';
+    } else if (a >= 12 && a < 18) {
+        humanType = 'ado';
+    } else if (a >= 18 && a < 124) {
+        humanType = 'adulte';
+    } else {
+        humanType = 'impossible... ou encore jamais vu';
+    }
+    return humanType;
+}
+
 /*
   Test 1
   Résultat attendu : "impossible... ou encore jamais vu"
@@ -49,5 +65,5 @@ getHumanTypeByAge(140);
 
 /* DO NOT TOUCH */
 module.exports = {
-  getHumanTypeByAge: getHumanTypeByAge
+    getHumanTypeByAge: getHumanTypeByAge
 }

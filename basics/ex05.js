@@ -9,6 +9,14 @@
 
 //  écrire votre code sous ce commentaire
 
+function isEvenConcat(a) {
+    if (a % 2 === 0) {
+        return a + ' est pair';
+    } else {
+        return a + ' est impair';
+    }
+}
+
 /*
   Test 1
   Résultat attendu : "6 est pair"
@@ -25,5 +33,5 @@ isEvenConcat(5);
 
 /* DO NOT TOUCH */
 module.exports = {
-  isEvenConcat: isEvenConcat
+    isEvenConcat: isEvenConcat
 }

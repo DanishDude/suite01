@@ -14,6 +14,10 @@
 
 //  écrire votre code sous ce commentaire
 
+function retParam(a) {
+    return a;
+}
+
 /*
   Test 1
   Résultat attendu: "5"
@@ -22,5 +26,5 @@ retParam(5);
 
 /* DO NOT TOUCH */
 module.exports = {
-  retParam: retParam
+    retParam: retParam
 }
