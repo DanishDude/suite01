@@ -15,6 +15,24 @@
 
 //  écrire votre code sous ce commentaire
 
+function isAllEven(numbers) {
+    let isPair = 1;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+            isPair = 1;
+        } else {
+            isPair = 0;
+        }
+        if (isPair === 0) {
+            break;
+        } else {
+            continue;
+        }
+    }
+    return isPair;
+}
+
+
 /*
   Test 1
   Résultat attendu : 0
@@ -31,5 +49,5 @@ isAllEven([4, 4, 6, 8, 10, 12]);
 
 /* DO NOT TOUCH */
 module.exports = {
-  isAllEven: isAllEven
+    isAllEven: isAllEven
 }

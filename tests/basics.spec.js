@@ -7,7 +7,7 @@ describe("Basics", () => {
     const exo5 = require('../basics/ex05');
     const exo6 = require('../basics/ex06');
     const exo7 = require('../basics/ex07');
-    // const exo8 = require('../basics/ex08');
+    const exo8 = require('../basics/ex08');
     // const exo9 = require('../basics/ex09');
     // const exo10 = require('../basics/ex10');
 
@@ -92,7 +92,7 @@ describe("Basics", () => {
     });
 
     /* Test Exercice 8 */
-    xdescribe('Basics - Exo 8', () => {
+    describe('Basics - Exo 8', () => {
         it('should return 0', () => {
             expect(exo8.isAllEven([4, 5, 6])).toEqual(0);
         });
