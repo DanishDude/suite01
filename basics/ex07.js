@@ -7,6 +7,14 @@
 
 //  écrire votre code sous ce commentaire
 
+function boostedAddition(numbers) {
+    let sum = 0
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+    return sum;
+}
+
 /*
   Test 1
   Résultat attendu : 15
@@ -22,5 +30,5 @@ boostedAddition([4, 4, 6, 8, 10, 12]);
 
 /* DO NOT TOUCH */
 module.exports = {
-  boostedAddition: boostedAddition
+    boostedAddition: boostedAddition
 }
