@@ -13,6 +13,9 @@
 
 //  écrire votre code sous ce commentaire
 
+const completeList = {};
+
+
 /*
   Test 1
   Résultat attendu : {
@@ -35,5 +38,5 @@ shoppingList([
 
 /* DO NOT TOUCH */
 module.exports = {
-  shoppingList: shoppingList
+    shoppingList: shoppingList
 }
