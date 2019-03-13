@@ -13,6 +13,10 @@
 
 //  écrire votre code sous ce commentaire
 
+function addition(a, b) {
+    return a + b;
+}
+
 /*
   Test 1
   Résultat attendu : 15
@@ -29,5 +33,5 @@ addition(98766, 345678);
 
 /* DO NOT TOUCH */
 module.exports = {
-  addition: addition
+    addition: addition
 }
