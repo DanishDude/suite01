@@ -13,7 +13,19 @@
 
 //  écrire votre code sous ce commentaire
 
-const completeList = {};
+function shoppingList(basket) {
+    const completeList = {};
+    for (let i = 0; i < basket.length; i++) {
+        for (let j = 0; j < basket[i].length; j++) {
+            if (!(basket[i][j] in completeList)) {
+                completeList[basket[i][j]] = 1;
+            } else {
+                completeList[basket[i][j]] += 1;
+            }
+        }
+    }
+    return completeList;
+}
 
 
 /*
