@@ -11,6 +11,13 @@ let pseudo = 'unknown';
 let isLevelMax = false;
 //  écrire votre code sous ce commentaire
 
+level = 999;
+pseudo = 'Editor Master';
+isLevelMax = true;
+
+console.log(level);
+console.log(pseudo);
+console.log(isLevelMax);
 
 
 /*
@@ -20,4 +27,3 @@ let isLevelMax = false;
 
   Le contenu des variables doit s'afficher à droite
 */
-

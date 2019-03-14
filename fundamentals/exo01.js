@@ -10,6 +10,13 @@
 
 //  écrire votre code sous ce commentaire
 
+let age = 35;
+const name = 'Bob';
+let isAGeek = false;
+
+console.log(age);
+console.log(name);
+console.log(isAGeek);
 
 
 /*
@@ -19,4 +26,3 @@
 
   Le contenu des variables doit s'afficher à droite
 */
-

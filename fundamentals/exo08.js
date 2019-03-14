@@ -11,7 +11,7 @@
 
 //  écrire votre code sous ce commentaire
 function returnFirstEtl(arr) {
-
+    return arr[0];
 }
 
 

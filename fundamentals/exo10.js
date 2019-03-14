@@ -12,7 +12,7 @@
 
 //  écrire votre code sous ce commentaire
 function returnElt(arr, pos) {
-
+    return arr[pos];
 }
 
 
@@ -43,6 +43,5 @@ returnElt([12, 34, 76, 43, 80, 51, 56, 41, 42], 5);
 
 /* DO NOT TOUCH */
 module.exports = {
-  returnElt: returnElt
+    returnElt: returnElt
 }
-

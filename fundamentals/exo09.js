@@ -11,7 +11,7 @@
 
 //  écrire votre code sous ce commentaire
 function returnLastElt(arr) {
-
+    return arr[arr.length - 1];
 }
 
 

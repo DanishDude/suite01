@@ -11,6 +11,7 @@ function addThree(number) {
     return number + 3;
 }
 
+addThree(10);
 
 /*
   Test 1

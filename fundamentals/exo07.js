@@ -17,6 +17,8 @@ function returnArray() {
     const uiDesigner = 'Mark Johns';
     const frontDev = 'Mika Kelt';
     const backDev = 'Maria Hellins';
+    let newArray = [projectManager, uxDesigner, uiDesigner, frontDev, backDev];
+    return newArray;
 }
 
 
@@ -31,4 +33,3 @@ returnArray();
 module.exports = {
     returnArray: returnArray
 }
-

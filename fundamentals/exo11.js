@@ -12,7 +12,9 @@
 
 //  écrire votre code sous ce commentaire
 function repeatTenTimes(arg) {
-    
+    for (i = 0; i < 10; i++) {
+        console.log(arg);
+    }
 }
 
 /*
@@ -55,5 +57,3 @@ repeatTenTimes("Hello")
   Le contenu des variables doit s'afficher à droite
   Résultat attendu: Afficher 10 fois la valeur de l'argument reçu
 */
-
-

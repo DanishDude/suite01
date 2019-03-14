@@ -9,7 +9,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function returnArg(arg) {
+    return arg;
+}
 
 
 /*

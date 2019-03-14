@@ -12,7 +12,7 @@ const str1 = 'Hello';
 const str2 = 'world';
 let message = '';
 //  écrire votre code sous ce commentaire
-
+message = str1 + ' ' + str2;
 console.log(message);
 
 /*
@@ -24,4 +24,3 @@ console.log(message);
   Résultat attendu
   "Hello world"
 */
-
