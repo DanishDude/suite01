@@ -9,6 +9,12 @@
 
 //  écrire votre code sous ce commentaire
 
+function editArrayAt(arr, positoin, value) {
+    return arr.splice(positoin, 1, value);
+}
+
+/* Resource: https://www.w3schools.com/jsref/jsref_splice.asp */
+
 /*
   Test 1
   Résultat attendu : ["bonjour", "ça", 5]
@@ -24,5 +30,5 @@ editArrayAt(arr1, 2, "va?");
 
 /* DO NOT TOUCH */
 module.exports = {
-  editArrayAt: editArrayAt
+    editArrayAt: editArrayAt
 }

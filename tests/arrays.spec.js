@@ -2,7 +2,7 @@ describe("Arrays", () => {
 
     /* Import exercices */
     const exo1 = require('../arrays/exo1');
-    // const exo2 = require('../arrays/exo2');
+    const exo2 = require('../arrays/exo2');
     // const exo3 = require('../arrays/exo3');
     // const exo4 = require('../arrays/exo4');
     // const exo5 = require('../arrays/exo5');
@@ -23,7 +23,7 @@ describe("Arrays", () => {
     });
 
     /* Test Exercice 2 */
-    xdescribe('Arrays - Exo 2', () => {
+    describe('Arrays - Exo 2', () => {
         it('should return the array modified with "ça"', () => {
             let arr1 = ["bonjour", 4, 5];
             exo2.editArrayAt(arr1, 1, "ça");
