@@ -12,6 +12,11 @@
 
 //  écrire votre code sous ce commentaire
 
+function getCharAt(phrase, pos) {
+    return phrase.substring(pos, pos + 1);
+}
+
+
 /*
   Test 1
   Résultat attendu : "j"
@@ -28,5 +33,5 @@ getCharAt("comment ça va?", 11);
 
 /* DO NOT TOUCH */
 module.exports = {
-  getCharAt: getCharAt
+    getCharAt: getCharAt
 }

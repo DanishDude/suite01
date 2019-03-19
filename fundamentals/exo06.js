@@ -11,7 +11,7 @@ function addThree(number) {
     return number + 3;
 }
 
-addThree(10);
+console.log(addThree(54));
 
 /*
   Test 1
