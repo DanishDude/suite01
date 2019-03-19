@@ -9,6 +9,10 @@
 
 //  écrire votre code sous ce commentaire
 
+function editStringAt(str, position, char) {
+    return str.replace(str.substring(position, position + 1), char);
+}
+
 /*
   Test 1
   Résultat attendu : "Bondour"
@@ -23,5 +27,5 @@ editStringAt("Hello world", 6, "W");
 
 /* DO NOT TOUCH */
 module.exports = {
-  editStringAt: editStringAt
+    editStringAt: editStringAt
 }
