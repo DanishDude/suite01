@@ -9,8 +9,8 @@
 
 //  écrire votre code sous ce commentaire
 
-function editStringAt(str, position, char) {
-    return str.replace(str.substring(position, position + 1), char);
+function editStringAt(str, pos, char) {
+    return str.replace(str[pos], char);
 }
 
 /*

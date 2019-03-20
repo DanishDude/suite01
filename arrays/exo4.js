@@ -12,6 +12,22 @@
 
 //  écrire votre code sous ce commentaire
 
+function searchOcc(arr, occ) {
+  let result = -1
+  for(let i = 0; i < arr.length; i++) {
+    if (result > 0 ) {
+      break;
+    } else {
+      if(arr[i] == occ) {
+        result = i;
+      } else {
+        result = -1;
+      }
+    }
+  }
+  return result;
+}
+
 /*
   Test 1
   Résultat attendu : 2
