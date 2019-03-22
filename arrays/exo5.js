@@ -12,7 +12,11 @@
 */
 
 //  écrire votre code sous ce commentaire
+
 const mergeArrays = (arr1, arr2) => [...arr1, ...arr2]
+    // This answer above is given by Alex ... ?
+    // ... Spread Operator (3 dots) appraoch is cool !!
+
 
 /*
   Test 1
@@ -28,5 +32,5 @@ mergeArrays(["enchanté", "je"], ["m'appelle", "comment?"]);
 
 /* DO NOT TOUCH */
 module.exports = {
-  mergeArrays: mergeArrays
+    mergeArrays: mergeArrays
 }

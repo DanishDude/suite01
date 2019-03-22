@@ -12,6 +12,8 @@
 
 //  écrire votre code sous ce commentaire
 
+const checkVehicles = (list, car) => list.includes(car);
+
 /*
   Test 1
   Résultat attendu : true
@@ -28,5 +30,5 @@ checkVehicles(["suzuki", "honda", "ducati"], "bmw");
 
 /* DO NOT TOUCH */
 module.exports = {
-  checkVehicles: checkVehicles
+    checkVehicles: checkVehicles
 }

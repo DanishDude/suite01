@@ -1,15 +1,15 @@
-describe("Fundamentals", () => {
+xdescribe("Fundamentals", () => {
 
     /* Import exercices */
-    const exo5 = require('../fundamentals/exo05');
-    const exo7 = require('../fundamentals/exo07');
-    const exo8 = require('../fundamentals/exo08');
-    const exo9 = require('../fundamentals/exo09');
-    const exo10 = require('../fundamentals/exo10');
+    // const exo5 = require('../fundamentals/exo05');
+    // const exo7 = require('../fundamentals/exo07');
+    // const exo8 = require('../fundamentals/exo08');
+    // const exo9 = require('../fundamentals/exo09');
+    // const exo10 = require('../fundamentals/exo10');
 
 
     /* Test Exercice 5 */
-    describe('Fundamentals - Exo 5', () => {
+    xdescribe('Fundamentals - Exo 5', () => {
         it('should return "Hello"', () => {
             expect(exo5.returnArg("Hello")).toEqual("Hello");
         });
@@ -24,14 +24,14 @@ describe("Fundamentals", () => {
     });
 
     /* Test Exercice 7 */
-    describe('Fundamentals - Exo 7', () => {
+    xdescribe('Fundamentals - Exo 7', () => {
         it('should return the array of variables', () => {
             expect(exo7.returnArray()).toEqual(["Dan Smith", "Helga Ollens", "Mark Johns", "Mika Kelt", "Maria Hellins"]);
         });
     });
 
     /* Test Exercice 8 */
-    describe('Fundamentals - Exo 8', () => {
+    xdescribe('Fundamentals - Exo 8', () => {
         it('should return "Hello"', () => {
             expect(exo8.returnFirstEtl(['Hello', 'Good morning', 'Hey', 'Hi'])).toEqual("Hello");
         });
@@ -42,7 +42,7 @@ describe("Fundamentals", () => {
     });
 
     /* Test Exercice 9 */
-    describe('Fundamentals - Exo 9', () => {
+    xdescribe('Fundamentals - Exo 9', () => {
         it('should return "Hi"', () => {
             expect(exo9.returnLastElt(['Hello', 'Good morning', 'Hey', 'Hi'])).toEqual("Hi");
         });
@@ -61,7 +61,7 @@ describe("Fundamentals", () => {
     });
 
     /* Test Exercice 10 */
-    describe('Fundamentals - Exo 10', () => {
+    xdescribe('Fundamentals - Exo 10', () => {
         it('should return "Hi"', () => {
             expect(exo10.returnElt(['Hello', 'Good morning', 'Hey', 'Hi'], 3)).toEqual("Hi");
         });
