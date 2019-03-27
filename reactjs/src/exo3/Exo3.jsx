@@ -9,3 +9,18 @@
  * -- state : 
  *    none
 */
+
+import React, { Component } from 'react';
+
+class Exo3 extends Component {
+  render() {
+    const {displayText} = this.props;
+    return (
+      <div className="Exo3">
+        {displayText}
+      </div>
+    )
+  }
+}
+
+export default Exo3;

@@ -11,3 +11,18 @@
  * -- state :
  *    none
 */
+
+import React, { Component } from 'react';
+
+class Exo2 extends Component {
+  render() {
+    return (
+      <div className="container">
+        <h2>Mon super composant</h2>
+        <p>Je suis un paragraphe.</p>
+      </div>
+    )
+  }
+}
+
+export default Exo2;

@@ -11,14 +11,18 @@
 
 //  écrire votre code sous ce commentaire
 
+countTotalTimeSpent = (time) => time.reduce(accumulator, currentValue) {
+    return accumulator + currentValue;
+}
+
 /*
   Test 1
   Résultat attendu : 65
 */
 
-countTotalTimeSpent([{name: 'Homer', time: 15}, {name: 'Bart', time: 28}, {name: 'Lisa', time: 22}]);
+countTotalTimeSpent([{ name: 'Homer', time: 15 }, { name: 'Bart', time: 28 }, { name: 'Lisa', time: 22 }]);
 
 /* DO NOT TOUCH */
 module.exports = {
-  countTotalTimeSpent: countTotalTimeSpent
+    countTotalTimeSpent: countTotalTimeSpent
 }

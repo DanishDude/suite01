@@ -1,4 +1,4 @@
-xdescribe("Es6", () => {
+describe("Es6", () => {
 
     /* Import exercices */
     // const exo1 = require('../es6/exo1');
